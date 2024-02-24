@@ -7,32 +7,26 @@ pool:
 variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
-  buildConfiguration: 'Release'
+  buildConfiguration: 'Debug'
 
-jobs:
-- job: Build
-  displayName: 'Build job'
-  steps:
-  - task: NuGetToolInstaller@1
+steps:
+- task: NuGetToolInstaller@1
 
-  - task: NuGetCommand@2
-    inputs:
-      restoreSolution: '$(solution)'
+- task: NuGetCommand@2
+  inputs:
+    restoreSolution: '$(solution)'
 
-  - task: VSBuild@1
-    inputs:
-      solution: '$(solution)'
-      msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.artifactStagingDirectory)"'
-      platform: '$(buildPlatform)'
-      configuration: '$(buildConfiguration)'
+- task: VSBuild@1
+  inputs:
+    solution: '$(solution)'
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
 
-- job: RunTests
-  displayName: 'Run tests job'
-  dependsOn: Build  # Wait for the Build job to complete before starting
-  steps:
-  - task: VSTest@2
-    inputs:
-      platform: '$(buildPlatform)'
-      configuration: '$(buildConfiguration)'
-      runInParallel: True  # Run tests in parallel
+- script: dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI
+  displayName: 'Install SpecFlow+ LivingDoc CLI'
 
+- script: dotnet test --filter TestCategory=SpecFlow
+  displayName: 'Run SpecFlow tests'
+
+- script: dotnet test --filter TestCategory=SmokeTests
+  displayName: 'Run NUnit Selenium tests'
