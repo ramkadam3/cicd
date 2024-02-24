@@ -1,0 +1,59 @@
+{
+  "CompanyeSignCardTitle": "Awaiting eSignatures from the Company. Please check back again for the next step.",
+  "MakePaymentCardTitle": "You have to wait for the company to approve investment to make payment.",
+  "FinalizeInvestmentCardTitle": "You have to complete all the steps for your investment to go live.",
+  "AdditionalInfoOnSubmition": "Additional information submitted, awaiting eSignatures from Investor.",
+
+
+  //QestionAndInputFields_For_AdditionalInformation
+
+  "DOB": "Date of Birth",
+  "DOBc": "Date Of Birth",
+  "State": "State where the Agreement is signed",
+  "Signer": "Title of the Signer",
+
+
+
+  "HearAbout": "How did you hear about us",
+  "RelationshipToManager": "Relationship to the Yrefy Manager",
+  "BusinessName": "Business /Employer Name",
+  "Position": "Position and Duties",
+
+  //Q
+  "TOD_or_POD": "Will you be filling a Tranfer on Death (TOD) or Pay on Death (POD) Beneficiary Form ?",
+  "AccountOwnerName": "Name",
+  "AdditionalName": "Additional Name(s)",
+  "Phone": "Daytime Phone",
+  "NameOnAccount": "Name on Account",
+  "BeneficiariesName": "Name If naming spouse as a beneficiary, do so here.",
+  "BeneficiariesID": "Social Security or Taxpayer ID Number",
+  "BeneficiariesDOB": "Date of Birth/Trust MM DD YYYY",
+  "SharePercentage": "Share Percentage",
+
+
+
+  //Q
+  "OrganizedEntity": "You are an entity organized under the law and jurisdiction of the United States of America.",
+  "InvestingOnBehalf": "You are investing on behalf of a Local, municipal, State, or Federal Government of the United States of America.",
+  "General_or_Partnership": "You are a general or limited partnership of which any general or limited partner is a Foreign Citizen, Foreign Entity, Foreign Government, Foreign Corporation, or Foreign Company.",
+  "RepresentativeOf": "You are a representative of, or an entity controlled by, any of the above entities.",
+  //Q
+  "UndersignedIsAnOfficer_or_Director": "The undersigned is an officer or director of a publicly held company.",
+  "IfYes": "If Yes, Specify:",
+  //Q
+  "PastInvestment": "Past Investment information",
+  "PreviousInvestment": "List of Previous Investments.", //mat-label
+  //Q
+  "ExperiencedInvestor": "I consider myself as an experienced investor",
+  "Advisor": "Do you have Advisor ?",
+  "AdvisorName": "Name",
+  "AdvisorFirm": "Firm",
+  "AdvisorAddress": "Address",
+  "AdvisorPhone": "Telephone",
+  "AdvisorEmail": "Email"
+
+
+
+
+
+}

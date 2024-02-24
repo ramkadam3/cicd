@@ -1,0 +1,30 @@
+{
+  "PreferredContacts": "Preferred Contacts",
+  "AddressPreference": "Address Preference",
+  "PreferredMethodOfContact": "Preferred Method of Contact",
+
+
+  //FinanceDetails
+  "IncomeType": "Income Type",
+  "IncomeFrequency": "Income Frequency",
+  "IncomeAmount": "Income Amount",
+  "Notes": "Notes",
+  "DoyouhaveaSavingCheckingAccount": "Do you have a Saving/Checking Account",
+
+  //BorrowerDetails
+  "Name": "Name",
+  "MaidenName": "Maiden Name",
+  "SSN": "SSN",
+  "PreviousName": "Previous Name",
+  "LicenseStateCode": "Driver's License State Code",
+  "LicenseNo": "License No.",
+
+
+  //AddressDetails
+  "State": "State",
+  "City": "City",
+
+  //ReferenceDetails
+  "Address": "Address",
+  "EmployerAddress": "Employer Address"
+}

@@ -1,0 +1,8 @@
+{
+  "LoginCredentialsTD": "\\TestData\\LoginCredentialsTD.json",
+  "AddInvestmentTD": "\\TestData\\OfferingData\\AddInvestmentTD.json",
+  "AddACHTD": "\\TestData\\OriginationData\\EscrowDetailsTD\\AddACH_TD.json",
+  "EscrowDetailsTD": "\\TestData\\OriginationData\\EscrowDetailsTD\\EscrowDetailsTD.json",
+  "ApplicationTD": "\\TestData\\OriginationData\\ApplicationTD.json",
+  "RoleCredencialTD": "\\TestData\\RoleCredentialTD.json"
+}

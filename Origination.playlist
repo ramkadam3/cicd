@@ -1,0 +1,66 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="Yrefy_AutomationProject" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="Yrefy_AutomationProject.Features" />
+              <Rule Match="Any">
+                <Property Name="Class" Value="AddApplicationfeatureFeature" />
+                <Property Name="Class" Value="AddCo_BorrowerFeature" />
+                <Property Name="Class" Value="EditApplicationFeatureFeature" />
+                <Property Name="Class" Value="Debt_DetailsFeature" />
+                <Property Name="Class" Value="LoanDetailsFeatureFeature" />
+                <Property Name="Class" Value="ActiveInactive_CoborrowerFeature" />
+                <Property Name="Class" Value="AddACHFeature" />
+                <Property Name="Class" Value="AddNoteFeature" />
+                <Property Name="Class" Value="AddWelcomeLetterFeature" />
+                <Property Name="Class" Value="BorrowerDocumentsFeature" />
+                <Property Name="Class" Value="CoBorrowerDocumentFeature" />
+                <Property Name="Class" Value="DTICalculatorFeature" />
+                <Property Name="Class" Value="Edit_CoBorrowerFeature" />
+                <Property Name="Class" Value="EscrowDetailsFeature" />
+                <Property Name="Class" Value="IncomeCalculatorFeature" />
+                <Property Name="Class" Value="ParticipantFeature" />
+                <Property Name="Class" Value="QueueFeature" />
+                <Property Name="Class" Value="SwapCoBorrowerFeature" />
+                <Rule Match="All">
+                  <Property Name="Class" Value="CreaditReportFeature" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Yrefy_AutomationProject.Features.CreaditReportFeature.ToVerifyThatTheCreditReportActionItemWorkingSuccessfully" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="ToVerifyThatTheCreditReportActionItemWorkingSuccessfully(&quot;slaadmin@yopmail.com&quot;,&quot;Successfully&quot;,null)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Yrefy_AutomationProject.Features.CreaditReportFeature.ToVerifyThatTheCreditReportCanBeAddedUsingAddCreditReportButtonSuccessfully" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="ToVerifyThatTheCreditReportCanBeAddedUsingAddCreditReportButtonSuccessfully(&quot;slaadmin@yopmail.com&quot;,&quot;Successfully&quot;,null)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Yrefy_AutomationProject.Features.CreaditReportFeature._01_ToVerifyThatTheCreditReportCanBeAddedUsingAddCreditReportButtonSuccessfully" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="_01_ToVerifyThatTheCreditReportCanBeAddedUsingAddCreditReportButtonSuccessfully(&quot;slaadmin@yopmail.com&quot;,&quot;Successfully&quot;,null)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Yrefy_AutomationProject.Features.CreaditReportFeature._02_ToVerifyThatTheCreditReportActionItemWorkingSuccessfully" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="_02_ToVerifyThatTheCreditReportActionItemWorkingSuccessfully(&quot;slaadmin@yopmail.com&quot;,&quot;Successfully&quot;,null)" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>

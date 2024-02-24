@@ -1,0 +1,27 @@
+{
+  //finder details sections of finder details
+  "Type": "Type",
+  "Name": "Name",
+  "SSN": "SSN (Last 4 Digits)",
+  "Email-login": "Email - login",
+
+  //Contact Details
+  "Email-Work": "Email - Work",
+  "Email-Personal": "Email - Personal",
+  "Phone-Home": "Phone - Home",
+  "Phone-Work": "Phone - Work",
+  "Phone-Cell": "Phone - Cell",
+
+  //Address
+  "BusinessAddress": "Business Address",
+  "MailingAddress": "Mailing Address",
+
+  //BankAccountDetails
+  "AccountHolderName": "Account Holder Name",
+  "AccountNumber": "Account Number",
+  "BankName": "Bank Name",
+  "ACHRoutingNumber": "ACH Routing Number",
+  "WireRoutingNumber": "Wire Routing Number",
+  "AccountType": "Account Type"
+
+}

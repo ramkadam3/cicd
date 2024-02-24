@@ -1,0 +1,67 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="Yrefy_AutomationProject" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="Yrefy_AutomationProject.Features" />
+              <Rule Match="Any">
+                <Property Name="Class" Value="AddInvestorFeature" />
+                <Property Name="Class" Value="Add_Partnership_InvestorFeature" />
+                <Property Name="Class" Value="Add_Joint_InvestorFeature" />
+                <Rule Match="All">
+                  <Property Name="Class" Value="Add_Scorp_InvestorFeature" />
+                  <Rule Match="Any">
+                    <Property Name="TestWithNormalizedFullyQualifiedName" Value="Yrefy_AutomationProject.Features.Add_Scorp_InvestorFeature.ToVerifyThatTheS_CORPInvestorCanBeAddedUsingAddInvestorButton" />
+                    <Property Name="TestWithNormalizedFullyQualifiedName" Value="Yrefy_AutomationProject.Features.Add_Scorp_InvestorFeature.ToVerifyThatTheS_CORPInvestorCanBeAddedUsingINVITEInvestorButton" />
+                    <Property Name="TestWithNormalizedFullyQualifiedName" Value="Yrefy_AutomationProject.Features.Add_Scorp_InvestorFeature.ToVerifyThatTheS_CORPInvestorCanBeAddedUsingINVITEInvestorButtonWhenUserBelongsToMULTIPLEAccount" />
+                  </Rule>
+                </Rule>
+                <Rule Match="All">
+                  <Property Name="Class" Value="Add_IRA_InvestorFeature" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Yrefy_AutomationProject.Features.Add_IRA_InvestorFeature.ToVerifyThatTheDataOfCustodianAreReflectingProperlyOnAddIRAInvestorForm" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="ToVerifyThatTheDataOfCustodianAreReflectingProperlyOnAddIRAInvestorForm(&quot;yrefytestuser@gmail.com&quot;,&quot;atestmanager3105@yopmail.com&quot;,&quot;IRA&quot;,&quot;No&quot;,&quot;1&quot;,&quot;Wire&quot;,&quot;Jhon Doe&quot;,&quot;No&quot;,&quot;Gated&quot;,null)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Yrefy_AutomationProject.Features.Add_IRA_InvestorFeature.ToVerifyThatTheIRAInvestorCanBeAddedUsingAddInvestorButton" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="ToVerifyThatTheIRAInvestorCanBeAddedUsingAddInvestorButton(&quot;atestmanager3105@yopmail.com&quot;,&quot;IRA&quot;,&quot;No&quot;,&quot;1&quot;,&quot;Wire&quot;,&quot;Jhon Doe&quot;,&quot;No&quot;,null)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Yrefy_AutomationProject.Features.Add_IRA_InvestorFeature.ToVerifyThatTheIRAInvestorCanBeAddedUsingTheINVITEINVESTORButton" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="ToVerifyThatTheIRAInvestorCanBeAddedUsingTheINVITEINVESTORButton(&quot;atestmanager3105@yopmail.com&quot;,&quot;IRA&quot;,&quot;No&quot;,&quot;1&quot;,&quot;Check&quot;,&quot;System Admin&quot;,&quot;No&quot;,&quot;Yes&quot;,null)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Yrefy_AutomationProject.Features.Add_IRA_InvestorFeature.ToVerifyThatTheIRAInvestorCanBeAddedUsingTheINVITEINVESTORButtonWhenUserBelongsToMULTIPLEACCOUNTS" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="ToVerifyThatTheIRAInvestorCanBeAddedUsingTheINVITEINVESTORButtonWhenUserBelongsToMULTIPLEACCOUNTS(&quot;atestmanager3105@yopmail.com&quot;,&quot;IRA&quot;,&quot;Yes&quot;,&quot;1&quot;,&quot;ACH&quot;,&quot;System Admin&quot;,&quot;No&quot;,&quot;Yes&quot;,&quot;Joint&amp;Individual&quot;,null)" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+                <Property Name="Class" Value="AddFinder_MRIAFeature" />
+                <Property Name="Class" Value="AddFinderFeature" />
+                <Property Name="Class" Value="EditFinder_MRIAFeature" />
+                <Property Name="Class" Value="EditFinderFeature" />
+                <Property Name="Class" Value="AddInvestment_JointFeature" />
+                <Property Name="Class" Value="AddInvestmentFeature" />
+                <Property Name="Class" Value="Add_Individual_InvestmentFeature" />
+                <Property Name="Class" Value="Add_IRA_InvestmentFeature" />
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>

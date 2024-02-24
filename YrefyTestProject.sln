@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yrefy_AutomationProject", "SpecFlowFrameWork\Yrefy_AutomationProject.csproj", "{C2BAE4AD-DEB5-471F-A0F6-F123B2DDF714}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2BAE4AD-DEB5-471F-A0F6-F123B2DDF714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2BAE4AD-DEB5-471F-A0F6-F123B2DDF714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2BAE4AD-DEB5-471F-A0F6-F123B2DDF714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2BAE4AD-DEB5-471F-A0F6-F123B2DDF714}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2F87D7B-1BC5-4366-AEA9-28756EAFAA75}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+{
+  "FN": "First Name",
+  "LN": "Last Name",
+  "BankName": "Bank Name",
+  "BankAddressL1": "Bank Address Line One",
+  "BankAddressL2": "Bank Address Line Two",
+  "Country": "Country",
+  "State": "State",
+  "City": "City",
+  "Zipcode":"Zip",
+  "AccountHolderType": "Account Holder Type",
+  "RoutingNumber": "Routing Number",
+  "AccountNumber": "Account Number",
+  "AccountType":"Account Type",
+  "PaymentMode": "Preferred Payment Mode",
+  "BillingAddressL1": "Address Line One",
+  "BillingAddressL2": "Address Line Two"
+  
+
+}

@@ -1,0 +1,24 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="Yrefy_AutomationProject" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="Yrefy_AutomationProject.Features" />
+              <Rule Match="Any">
+                <Property Name="Class" Value="AddInvestmentFeature" />
+                <Property Name="Class" Value="Add_Individual_InvestmentFeature" />
+                <Property Name="Class" Value="Add_InvestmentFeature" />
+                <Property Name="Class" Value="Add_IRA_InvestmentFeature" />
+                <Property Name="Class" Value="AddInvestment_JointFeature" />
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>

@@ -1,0 +1,19 @@
+{
+  "SelectBorrowerName": "Select Borrower Name",
+  "EscrowStartDate": "Escrow Start Date",
+  "NoOfEscrowPayments": "No. Of Escrow Payments",
+  "PaymentFrequency": "Payment Frequency",
+  "ScheduleEscrowAmount": "Schedule Escrow Amount",
+  "FirstPaymentDay": "First Payment Day",
+  "SecondPaymentDay": "Second Payment Day",
+
+
+  "EscrowAccountBalance": "Escrow Account Balance",
+  "EscrowLength": "Escrow Length",
+  "SuccessfulEscrowPayments": "Successful Escrow Payments",
+  "FailedEscrowPayments": "Failed Escrow Payments",
+  "NextPaymentDate": "Next Payment Date",
+  "PreviousPaymentDate": "Previous Payment Date"
+
+
+}

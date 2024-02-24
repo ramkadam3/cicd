@@ -1,0 +1,73 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="Yrefy_AutomationProject" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="Yrefy_AutomationProject.Features" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="Edit_InvestmentFeature" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Yrefy_AutomationProject.Features.Edit_InvestmentFeature.ValidateThatTheInvestmentCanBeEditedAtCompanySideWhichWasNotFinalized" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="ValidateThatTheInvestmentCanBeEditedAtCompanySideWhichWasNotFinalized(&quot;17august23@yopmail.com&quot;,&quot;atestmanager3105@yopmail.com&quot;,&quot;Investor Signed&quot;,&quot;Adobe Test Offering&quot;,&quot;17august&quot;,&quot;50&quot;,&quot;1000&quot;,&quot;1200&quot;,&quot;30&quot;,&quot;50&quot;,&quot;70&quot;,&quot;0.74&quot;,&quot;1.97&quot;,null)" />
+                        <Property Name="DisplayName" Value="ValidateThatTheInvestmentCanBeEditedAtCompanySideWhichWasNotFinalized(&quot;17august23@yopmail.com&quot;,&quot;acuser@yopmail.com&quot;,&quot;eSigned&quot;,&quot;Adobe Test Offering&quot;,&quot;17august&quot;,&quot;50&quot;,&quot;1000&quot;,&quot;1200&quot;,&quot;30&quot;,&quot;50&quot;,&quot;70&quot;,&quot;0.74&quot;,&quot;1.97&quot;,null)" />
+                        <Property Name="DisplayName" Value="ValidateThatTheInvestmentCanBeEditedAtCompanySideWhichWasNotFinalized(&quot;17august23@yopmail.com&quot;,&quot;acmanager@yopmail.com&quot;,&quot;Amount Transferred&quot;,&quot;Adobe Test Offering&quot;,&quot;17august&quot;,&quot;50&quot;,&quot;1000&quot;,&quot;1200&quot;,&quot;30&quot;,&quot;50&quot;,&quot;70&quot;,&quot;0.74&quot;,&quot;1.97&quot;,null)" />
+                        <Property Name="DisplayName" Value="ValidateThatTheInvestmentCanBeEditedAtCompanySideWhichWasNotFinalized(&quot;17august23@yopmail.com&quot;,&quot;adobemanager@yopmail.com&quot;,&quot;Requested&quot;,&quot;Adobe Test Offering&quot;,&quot;17august&quot;,&quot;50&quot;,&quot;1000&quot;,&quot;1200&quot;,&quot;30&quot;,&quot;50&quot;,&quot;70&quot;,&quot;0.74&quot;,&quot;1.97&quot;,null)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Yrefy_AutomationProject.Features.Edit_InvestmentFeature.ValidateThatTheInvestmentCanNotBeEditedAtCompanySideBySales_RepWhenStatusIsNonRequested" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="ValidateThatTheInvestmentCanNotBeEditedAtCompanySideBySales_RepWhenStatusIsNonRequested(&quot;AutoInvestor@yopmail.com&quot;,&quot;AutoInvestor&quot;,&quot;testsalesrep@yopmail.com&quot;,&quot;Requested&quot;,&quot;Adobe Test Offering&quot;,&quot;50&quot;,&quot;1000&quot;,&quot;1200&quot;,&quot;30&quot;,&quot;50&quot;,&quot;70&quot;,&quot;0.74&quot;,&quot;1.97&quot;,null)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Yrefy_AutomationProject.Features.Edit_InvestmentFeature.ValidateThatTheInvestmentCanNotBeEditedAtFinderProfileWhereTheStatusIsNonRequested" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="ValidateThatTheInvestmentCanNotBeEditedAtFinderProfileWhereTheStatusIsNonRequested(&quot;AutoInvestor@yopmail.com&quot;,&quot;TestRIA2@yopmail.com&quot;,&quot;Investor Signed&quot;,&quot;Adobe Test Offering&quot;,&quot;AutoInvestor&quot;,&quot;50&quot;,&quot;1000&quot;,&quot;1200&quot;,&quot;30&quot;,&quot;50&quot;,&quot;70&quot;,&quot;0.74&quot;,&quot;1.97&quot;,null)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Yrefy_AutomationProject.Features.Edit_InvestmentFeature.ValidateThatTheInvestmentHaveNoRequested_StatusCanNotBeEditedOnInvestorSide" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="ValidateThatTheInvestmentHaveNoRequested_StatusCanNotBeEditedOnInvestorSide(&quot;17august23@yopmail.com&quot;,&quot;atestmanager3105@yopmail.com&quot;,&quot;Adobe Test Offering&quot;,&quot;17august&quot;,&quot;50&quot;,&quot;1000&quot;,&quot;1200&quot;,&quot;30&quot;,&quot;50&quot;,&quot;70&quot;,&quot;0.74&quot;,&quot;1.97&quot;,null)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Yrefy_AutomationProject.Features.Edit_InvestmentFeature.ValidateThatTheInvestmentHavingRequestedStatusCanBeEditedAtInvestorSide" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="ValidateThatTheInvestmentHavingRequestedStatusCanBeEditedAtInvestorSide(&quot;17august23@yopmail.com&quot;,&quot;atestmanager3105@yopmail.com&quot;,&quot;Adobe Test Offering&quot;,&quot;17august&quot;,&quot;50&quot;,&quot;1000&quot;,&quot;1200&quot;,&quot;30&quot;,&quot;50&quot;,&quot;70&quot;,&quot;0.74&quot;,&quot;1.97&quot;,null)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Yrefy_AutomationProject.Features.Edit_InvestmentFeature.ValidateThatTheRequestedInvestmentCanBeEditedAtCompanySideBySales_Rep" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="ValidateThatTheRequestedInvestmentCanBeEditedAtCompanySideBySales_Rep(&quot;AutoInvestor@yopmail.com&quot;,&quot;AutoInvestor&quot;,&quot;testsalesrep@yopmail.com&quot;,&quot;Requested&quot;,&quot;Adobe Test Offering&quot;,&quot;50&quot;,&quot;1000&quot;,&quot;1200&quot;,&quot;30&quot;,&quot;50&quot;,&quot;70&quot;,&quot;0.74&quot;,&quot;1.97&quot;,null)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Yrefy_AutomationProject.Features.Edit_InvestmentFeature.ValidateThatTheRequestedInvestmentCanBeEditedAtFinderProfile" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="ValidateThatTheRequestedInvestmentCanBeEditedAtFinderProfile(&quot;AutoInvestor@yopmail.com&quot;,&quot;TestRIA2@yopmail.com&quot;,&quot;Requested&quot;,&quot;Adobe Test Offering&quot;,&quot;AutoInvestor&quot;,&quot;50&quot;,&quot;1000&quot;,&quot;1200&quot;,&quot;30&quot;,&quot;50&quot;,&quot;70&quot;,&quot;0.74&quot;,&quot;1.97&quot;,null)" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+                <Property Name="Class" Value="LoginFunctionFeature" />
+                <Property Name="Class" Value="NotificationMatrixFeature" />
+                <Property Name="Class" Value="SimulatorFeature" />
+                <Property Name="Class" Value="TestSuite_AddInvestment_OfferingFeature" />
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>
